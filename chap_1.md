@@ -158,7 +158,7 @@ Visual Studio 2022를 찾아서 실행한다. 마이크로소프트 계정으로
 
 ```c
 #include <stdio.h>
-int main(void) {
+int main(int argc, char** argv) {
     printf("Hello World!\n");
     return 0;
 }
